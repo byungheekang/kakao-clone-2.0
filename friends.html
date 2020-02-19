@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>friends Kakao Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__clock">13:54</span>
+      </div>
+      <div class="status-bar_column">
+        <i class="fas fa-clock"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="status-bar__battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+    <header class="header">
+      <div class="header__header-column">
+        <h1 class="header-title">Friends</h1>
+      </div>
+      <div class="header__header-column">
+        <span class="header__icon"></span>
+          <i class="fas fa-search"></i>
+        </span>
+       
+        <span class="header__icon">
+        <a href="setting.html">
+          <i class="fas fa-cog"></i>
+          </a>
+        </span>
+      </div>
+      <main class="friends"> <!--여기까지가 채팅장프로필 직전-->
+        <header class="friends__header">
+          <div class="friends__friend friend friend--lg">
+            <div class="friends__column">
+            <img class="g-avatar friend__avatar" src="dog.jpg" style="width: 60px; height: 60px;">
+            <div class="friend__content">   <!--나의 프로필 사진-->
+              <span class="friend__name">
+                byung hee<br>
+              </span>
+              <span class="friends__status">
+                Hello world
+              </span>
+            </div>
+          </div>
+          </div>
+        </header>
+        <div class="friends__plus">
+          <h5 class="friends__title">Plus Friends</h5> <!--플러스 친구 프로필-->
+          <div class="friends__friend friend friend">
+            <div class="friends__column">
+            <img class="g-avatar friend__avatar" src="dog.jpg" style="width: 40px; height: 40px;">
+            <div class="friend__content">
+              <span class="friend__name">
+                Plus Friend<br>
+              </span>
+             
+            </div>
+          </div>
+        </div>
+        </div>
+        <ul class="friends__list">
+          <h5 class="friends__title">Friends 14</h5> <!--친구목록의 시작-->
+            <li class="friends__friend friend friend">
+              <div class="friend__column">
+              <img class="g-avatar friend__avatar" src="dog.jpg" style="width: 40px; height: 40px;">
+              <div class="friend__content">
+                <span class="friend__name">
+                  jae woo<br>
+                </span>
+                <span class="friends__status">
+                 a month left for army
+                </span>
+              </div>
+              </div>
+              <div class="friend__column">
+                <div class="friend__now-listening">
+                  <span>FTISLAND (FT NomadCoders)</span>
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+            </li>
+        </ul>
+      </main>
+    </header>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="friends.html" class="__list-link">
+            <i class="fas fa-user"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="chat.html" class="__list-link">
+            <i class="far fa-comment"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="searching.html" class="__list-link">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="__list-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>
